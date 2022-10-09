@@ -4905,6 +4905,12 @@ end)
 GamesAndScriptsSection:NewButton("Supernatural Simulator","...", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/TPvCDsbe", true))()
 end)
+
+GamesAndScriptsSection:NewButton("Remote 2 Spy (loadstring by me)","...", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mariscriptz/Remote2Script/main/source",true))();
+end)
+
+
     -- SETTINGS
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("... to close/reopen")
