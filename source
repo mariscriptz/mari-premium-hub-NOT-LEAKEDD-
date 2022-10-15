@@ -51,7 +51,17 @@ HomeSection:NewButton("Inf money (Works in any game)", "Inf money script in ever
 
 
 HomeSection:NewButton("Click For A Welcoming", "You get welcomed.", function()
-    print("Hi, You are very exquisite!")
+    print("clicked")
+
+    game:GetService("StarterGui"):SetCore("SendNotification",{
+    
+                    Title = "Credits";
+    
+                    Text = "Hi, you're very Exquisite ";
+    
+                    Duration = 3.5;
+    
+                })
 end)
 
 
