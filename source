@@ -4937,7 +4937,7 @@ GamesAndScriptsSection:NewButton("Unlimited Words (any game)","...", function()
 end)
 
 
-GamesAndScriptsSection:NewButton("Rox Hub","...", function()
+GamesAndScriptsSection:NewButton("Rox Hub RoxHub_KeyLMRPVFYSGLBU","...", function()
      
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/RoxHub.lua", true))()
 
