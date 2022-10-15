@@ -4923,7 +4923,7 @@ end)
 GamesAndScriptsSection:NewButton("Dragon Ball Evolution (Key is DragonBall12345!!..Legend777!!???)","...", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/main123/main/testing8787"))()
 end)
-GamesAndScriptsSection:NewButton("Limited Words","...", function()
+GamesAndScriptsSection:NewButton("Unlimited Words (any game)","...", function()
     local library = loadstring(game:HttpGet("https://pastebin.com/raw/eKwyeQa0", true))()
 
     local tab1 = library:CreateTab("Unlimited Words", true)
