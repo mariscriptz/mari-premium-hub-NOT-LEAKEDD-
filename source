@@ -4937,6 +4937,13 @@ GamesAndScriptsSection:NewButton("Unlimited Words (any game)","...", function()
 end)
 
 
+GamesAndScriptsSection:NewButton("Rox Hub","...", function()
+     
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/scripts/main/RoxHub.lua", true))()
+
+end)
+
+
     -- SETTINGS
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("... to close/reopen")
