@@ -55,7 +55,7 @@ HomeSection:NewButton("Click For A Welcoming", "You get welcomed.", function()
 
     game:GetService("StarterGui"):SetCore("SendNotification",{
     
-                    Title = "Credits";
+                    Title = "Welcoming";
     
                     Text = "Hi, you're very Exquisite ";
     
