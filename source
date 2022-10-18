@@ -4950,6 +4950,25 @@ GamesAndScripts2Section:NewButton("Fates Admin OP","...", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 end)
 
+GamesAndScripts2Section:NewButton("super eater","...", function()
+--BROUGHT TO YOU BY RSCRIPTS.NET!--
+
+getgenv().AutoEat=true;
+game:GetService("RunService").Heartbeat:Connect(function()
+    spawn(function()
+        if getgenv().AutoEat then
+            wait(0.1)
+            for _,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+                  if string.sub(v.Name, 0, 4) == "Food" then
+                        v.Parent = game:GetService("Players").LocalPlayer.Character;
+                  end
+            end
+            game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"GainMass", math.huge});
+        end
+    end)
+end)
+end)
+
     -- SETTINGS
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("... to close/reopen")
