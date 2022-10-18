@@ -4946,6 +4946,9 @@ GamesAndScriptsSection:NewButton("Zama Hub","...", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruScripter/Zama-Hub/main/LoadingScriptNew"))()
 end)
 
+GamesAndScripts2Section:NewButton("Fates Admin OP","...", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
 
     -- SETTINGS
 local Settings = Window:NewTab("Settings")
@@ -4953,3 +4956,7 @@ local SettingsSection = Settings:NewSection("... to close/reopen")
 SettingsSection:NewKeybind("... to close/reopen", "same thing as it says", Enum.KeyCode.RightControl, function()
 	Library:ToggleUI()
 end)
+
+
+
+
