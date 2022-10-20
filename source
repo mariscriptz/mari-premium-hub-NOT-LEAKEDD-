@@ -4968,6 +4968,12 @@ game:GetService("RunService").Heartbeat:Connect(function()
     end)
 end)
 end)
+GamesAndScripts2Section:NewButton("Snow Shoveling Sim","...", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CrazorTheCat/thiscontainstuff/main/snowShovelingSimulatorGUI.lua"))()
+end)
+
+
+
 
     -- SETTINGS
 local Settings = Window:NewTab("Settings")
