@@ -4973,8 +4973,8 @@ GamesAndScripts2Section:NewButton("Snow Shoveling Sim","...", function()
 end)
 
 
-GamesAndScripts2Section:NewButton("Shark Evolution","...", function()
-    loadstring(game:HttpGet('http://www.beemoscripts.com/FlinchHub/Loader.lua'))();
+GamesAndScripts2Section:NewButton("Meepcity","...", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/mpcity/main/loader.lua",true))()
 end)
 
 
