@@ -4978,6 +4978,12 @@ GamesAndScripts2Section:NewButton("Meepcity","...", function()
 end)
 
 
+
+GamesAndScripts2Section:NewButton("Football Fusion 2","...", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1x2x3/Kanye/main/loadstring.lua'))();
+end)
+
+
     -- SETTINGS
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("... to close/reopen")
