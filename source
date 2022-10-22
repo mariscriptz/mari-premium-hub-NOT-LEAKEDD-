@@ -4979,8 +4979,8 @@ end)
 
 
 
-GamesAndScripts2Section:NewButton("Football Fusion 2","...", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/1x2x3/Kanye/main/loadstring.lua'))();
+GamesAndScripts2Section:NewButton("Sword Simulator","...", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 end)
 
 
