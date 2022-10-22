@@ -4983,8 +4983,8 @@ GamesAndScripts2Section:NewButton("Sword Simulator","...", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 end)
 
-GamesAndScriptsSection:NewButton("bloxburg auto farm","...", function()
-    local http_request = http_request or request or (syn and syn.request) or (http and http.request) loadstring(http_request({Url="https://projectillusion.dev/free/bloxburg.lua",Method="GET"}).Body)()
+GamesAndScriptsSection:NewButton("bloxburg auto farm | BlueRug = key","...", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/BloxburgPizza.lua'))()
 
 end)
 
@@ -4994,7 +4994,6 @@ local SettingsSection = Settings:NewSection("... to close/reopen")
 SettingsSection:NewKeybind("... to close/reopen", "same thing as it says", Enum.KeyCode.RightControl, function()
 	Library:ToggleUI()
 end)
-
 
 
 
