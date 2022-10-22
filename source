@@ -4984,7 +4984,7 @@ GamesAndScripts2Section:NewButton("Sword Simulator","...", function()
 end)
 
 GamesAndScriptsSection:NewButton("bloxburg gamepasses","...", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/AKuDusRG"))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/iaEdYXXW'))()
 end)
 
     -- SETTINGS
