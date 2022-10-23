@@ -4987,7 +4987,7 @@ GamesAndScriptsSection:NewButton("bloxburg auto farm | BlueRug = key","...", fun
     loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/BloxburgPizza.lua'))()
 
 end)
-GamesAndScripts2Section:NewButton("Destruction Simulator (spam this)","...", function()
+GamesAndScripts2Section:NewButton("Destruction Simulator (It autos until you leave)","...", function()
     while true do
         wait(0.1)
     
