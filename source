@@ -4987,13 +4987,14 @@ GamesAndScriptsSection:NewButton("bloxburg auto farm | BlueRug = key","...", fun
     loadstring(game:HttpGet('https://raw.githubusercontent.com/big-balla-script-maka/free-scripts/main/BloxburgPizza.lua'))()
 
 end)
+GamesAndScripts2Section:NewButton("Destruction Simulator","...", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ssztBaQ2", true))()
+end)
 
-    -- SETTINGS
+
+  -- SETTINGS
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("... to close/reopen")
 SettingsSection:NewKeybind("... to close/reopen", "same thing as it says", Enum.KeyCode.RightControl, function()
 	Library:ToggleUI()
 end)
-
-
-
