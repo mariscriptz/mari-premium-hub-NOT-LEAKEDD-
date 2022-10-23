@@ -4988,9 +4988,9 @@ GamesAndScriptsSection:NewButton("bloxburg auto farm | BlueRug = key","...", fun
 
 end)
 GamesAndScripts2Section:NewButton("Destruction Simulator","...", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/ssztBaQ2", true))()
+    game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Levels", 480, 10)
+game:GetService("ReplicatedStorage").Remotes.generateBoost:FireServer("Coins", 480, 10000000)
 end)
-
 
   -- SETTINGS
 local Settings = Window:NewTab("Settings")
