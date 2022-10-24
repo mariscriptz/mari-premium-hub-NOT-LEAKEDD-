@@ -5005,7 +5005,10 @@ game:GetService("ReplicatedStorage").Remotes.ClientFrameData:FireServer(math.hug
 end
 end)
 
-
+GamesAndScriptsSection:NewButton("OP Ninja Simulator","...", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost
+    Duckyy/Duckyy/main/Loader.lua", true))()
+end)
 
   -- SETTINGS
 local Settings = Window:NewTab("Settings")
