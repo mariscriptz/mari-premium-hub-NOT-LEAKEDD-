@@ -5006,8 +5006,7 @@ end
 end)
 
 GamesAndScriptsSection:NewButton("OP Ninja Simulator","...", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost
-    Duckyy/Duckyy/main/Loader.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/Duckyy/main/Loader.lua", true))()
 end)
 
   -- SETTINGS
