@@ -5009,6 +5009,12 @@ GamesAndScriptsSection:NewButton("OP Ninja Simulator","...", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/Duckyy/main/Loader.lua", true))()
 end)
 
+GamesAndScriptsSection:NewButton("Adopt Me","...", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
+
+end)
+
+
   -- SETTINGS
 local Settings = Window:NewTab("Settings")
 local SettingsSection = Settings:NewSection("... to close/reopen")
