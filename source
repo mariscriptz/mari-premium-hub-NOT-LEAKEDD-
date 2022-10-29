@@ -5006,7 +5006,8 @@ end
 end)
 
 GamesAndScriptsSection:NewButton("OP Ninja Simulator","...", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/Duckyy/main/Loader.lua", true))()
+    --// https://discord.gg/TFUeFEESVv
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/Bread/main/Loader/source.lua"))()
 end)
 
 GamesAndScriptsSection:NewButton("Adopt Me","...", function()
