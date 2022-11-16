@@ -22,7 +22,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Mari's Premium Hub", "BloodTheme")
+local Window = Library.CreateLib("Mari's Premium Hub (DISCONTINUED)", "BloodTheme")
 -- HOME
 local Home = Window:NewTab("Home")
 local HomeSection = Home:NewSection("Premium Hub is finally here.")
@@ -5018,6 +5018,13 @@ end)
 GamesAndScriptsSection:NewButton("SPTS: Custom II","...", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/erikkire123/New-Spts-script/main/newsptscscript.txt"), true))()
 end)
+
+GamesAndScriptsSection:NewButton("Mango Premium Hub","...", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub"))()
+end)
+
+
+
 
   -- SETTINGS
 local Settings = Window:NewTab("Settings")
